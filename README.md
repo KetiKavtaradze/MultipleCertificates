@@ -1,46 +1,29 @@
-Certificate Generator from Excel (Python)
+# 📄 Certificate Generator (Python)
 
-This Python script reads participant data from an Excel file and automatically generates personalized Word (.docx) certificates using a predefined certificate template.
+Generate personalized Word (.docx) certificates automatically using data from an Excel file.
 
-Each row in the Excel file contains the participant’s name, event, and date, which are inserted into the certificate template to create individual certificates.
+## 🧾 Input
 
-Features
+Excel file columns:
 
-Reads data from an Excel file
+Name
 
-Uses a Word certificate template
+Event
 
-Automatically fills in:
+Date
 
-Participant name
+Each row represents one certificate.
 
-Event name
+## 📤 Output
 
-Event date
+Individual Word (.docx) certificate files
 
-Generates a separate .docx certificate for each entry
+One file per participant
 
-Fast and scalable for large lists
+⚙️ How It Works
 
-Input Format (Excel)
+Read data from Excel
 
-The Excel file should contain the following columns:
+Insert values into a Word certificate template
 
-Name	Event	Date
-John Doe	Data Science Workshop	12 June 2025
-Jane Smith	Python Training	15 June 2025
-Output
-
-Individual Word certificate files (.docx)
-
-File names can be customized (e.g. Certificate_John_Doe.docx)
-
-How It Works
-
-Prepare an Excel file with participant data.
-
-Create a Word certificate template with placeholders.
-
-Run the Python script.
-
-Personalized certificates are generated automatically.
+Export personalized certificates
